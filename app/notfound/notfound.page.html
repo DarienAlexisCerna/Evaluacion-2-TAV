@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start" >
+      <ion-back-button defaultHref="/opciones-ep"
+       text="back"
+       color="success" 
+       name="arrow-undo-outline"></ion-back-button>
+     </ion-buttons>
+    <ion-title style="font-size: 1.5em; color: black;">Pagina no encontrada</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">notfound</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+    <img src="assets/404.jpg" style="width: 100%; max-width: 700px; height: auto; display: block; margin: 0 auto;">
+      <ion-card-subtitle style="text-align: center; font-size: 3em; color: black;">Pagina no encontrada</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content style="text-align: center; font-size: 1em; color: black;">
+      No tiene acceso a la pagina buscada.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
